@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="adv.css">
+    </head>
+    <body>
+      <div class="links">
+        <a href="index.html">Text Search</a>
+      </div>
+      <br>
+      <div class="heading">
+        <h1>Advanced Query<h1>
+      </div>
+      <br>
+        <form action="https://www.google.com/search ">
+          <table>
+            <colgroup>
+              <col span="1" style="width: 10%;">
+              <col span="1" style="width: 24%;">
+              <col span="1" style="width: 1%;">
+              <col span="1" style="width: 24%;">
+              <col span="1" style="width: 25%;">
+              <col span="1" style="width: 5%;">
+            </colgroup>
+            <thead>
+              <th>Find pages with...</th>
+              <th> </th>
+              <th> </th>
+              <th> </th>
+              <th>To do this in the search box.</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>all these words:</td>
+                <td colspan="3"><input type="text" name="as_q" autocomplete="off"></td>
+                <td>Type the important words: tri-colour rat terrier</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>this exact word or phrase:</td>
+                <td colspan="3"><input type="text" name="as_epq" autocomplete="off"></td>
+                <td>Put exact words in quotes: "rat terrier"</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>any of these words:</td>
+                <td colspan="3"><input type="text" name="as_oq" autocomplete="off"></td>
+                <td>Type OR between all the words you want: miniature OR standard</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>none of these words:</td>
+                <td colspan="3"><input type="text" name="as_eq" autocomplete="off"></td>
+                <td>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>numbers ranging from:</td>
+                <td><input type="text" name="as_nlo" autocomplete="off"></td>
+                <td style="text-align:center;">to</td>
+                <td><input type="text" name="as_nhi" autocomplete="off"></td>
+                <td>Put two full stops between the numbers and add a unit of measurement: 10..35 kg, £300..£500, 2010..2011</td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+            <input type="submit" value="Advanced Search">
+        </form>
+    </body>
+</html>
